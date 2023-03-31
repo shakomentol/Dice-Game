@@ -93,7 +93,7 @@ function holdScore() {
     document.querySelector(`#score-${active}`).innerHTML = score[active];
 
      if(score[active] >= 81)  {
-        alert('winner')
+        alert('WINNER')
     } 
 
     temp = 0;
